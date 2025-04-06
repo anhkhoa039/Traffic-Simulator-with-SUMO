@@ -27,18 +27,22 @@ This project is a traffic simulation tool using SUMO (Simulation of Urban MObili
 ### Usage
 1. Prepare SUMO configuration files (`.net.xml`, `.rou.xml`, etc.).
 2. Run the simulation:  
-- Run simulation without **TraCI (Traffic controll Interface)**
+- Run simulation with default strategy
     ```bash
     sumo-gui -c map/my_sumo_net.sumocfg 
     ```
 - Run simulation with **TraCI (Traffic controll Interface)**:
+    ```python
+    python src/adaptive_trafficlight.py
+    ```
 
 3. View the simulation results and analyze traffic patterns.
 
 ### File Structure
-- `simulate.py`: Main script to run the simulation.
-- `config/`: Directory containing SUMO configuration files.
-- `data/`: Directory for input and output data.
+- `src/adaptive_trafficlight.py`: Main script to run the simulation.
+- `map/`: Directory containing SUMO configuration files.
+- `output/`: Directory for output data.
+- `extracted/`: Directory for input data (breakdown the map into smaller component for understanding).
 - `README.md`: Project documentation.
 
 
