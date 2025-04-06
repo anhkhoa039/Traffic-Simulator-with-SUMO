@@ -16,7 +16,7 @@ switch_interval = 15  # seconds between decisions
 
 # ---- SUMO Simulation Setup ----
 sumoBinary = sumolib.checkBinary("sumo-gui")  # Use "sumo" for non-GUI
-traci.start([sumoBinary, "-c", "my_sumo_net.sumocfg"])
+traci.start([sumoBinary, "-c", "map/my_sumo_net.sumocfg"])
 
 step = 0
 last_switch = 0

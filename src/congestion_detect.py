@@ -13,7 +13,7 @@ def get_color_by_speed(speed, max_speed):
 
 # Start the SUMO simulation
 sumoBinary = sumolib.checkBinary('sumo-gui')
-traci.start([sumoBinary, "-c", "my_sumo_net.sumocfg"])
+traci.start([sumoBinary, "-c", "map/my_sumo_net.sumocfg"])
 
 # Run the simulation
 step = 0
