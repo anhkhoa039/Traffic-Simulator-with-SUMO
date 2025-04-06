@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-04-01 14:44:57.839158 by randomTrips.py UNKNOWN
+<configuration>
+    <net-file value="my_sumo_net.net.xml"/>
+    <output-trip-file value="mymap.trips.xml"/>
+    <validate value="True"/>
+    <end value="90.0"/>
+    <period value="9.0"/>
+</configuration>
+-->
+
+<!-- generated on 2025-04-01 14:44:57 by Eclipse SUMO duarouter Version 1.22.0
+<duarouterConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="my_sumo_net.net.xml"/>
+        <route-files value="mymap.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="mymap.trips.xml.tmp"/>
+        <alternatives-output value="NUL"/>
+        <write-trips value="true"/>
+    </output>
+
+    <time>
+        <begin value="0.0"/>
+        <end value="90.0"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <ignore-errors value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</duarouterConfiguration>
+-->
+
+<!-- <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <trip id="0" depart="0.00" from="47442743#2" to="-197551632#1"/>
+    <trip id="1" depart="9.00" from="25439947#0" to="197551648#1"/>
+    <trip id="2" depart="18.00" from="490917268#1" to="47442750#2"/>
+    <trip id="3" depart="27.00" from="491337032#2" to="-491342453"/>
+    <trip id="4" depart="36.00" from="415670710#3" to="-29182100#0"/>
+    <trip id="5" depart="45.00" from="197551632#0" to="415697113#0"/>
+    <trip id="6" depart="54.00" from="-197551632#2" to="197551632#1"/>
+    <trip id="7" depart="63.00" from="47442743#3" to="47442733"/>
+    <trip id="8" depart="72.00" from="197551632#0" to="47442735#4"/>
+    <trip id="9" depart="81.00" from="491337027#0" to="-170356124"/>
+</routes> -->
+
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <trip id="0" depart="0.00" from="47442743#2" to="-197551632#1" color="1,0,0"/>         <!-- Red -->
+    <trip id="1" depart="9.00" from="25439947#0" to="197551648#1" color="0,1,0"/>         <!-- Green -->
+    <trip id="2" depart="18.00" from="490917268#1" to="47442750#2" color="0,0,1"/>        <!-- Blue -->
+    <trip id="3" depart="27.00" from="491337032#2" to="-491342453" color="1,1,0"/>        <!-- Yellow -->
+    <trip id="4" depart="36.00" from="415670710#3" to="-29182100#0" color="1,0,1"/>       <!-- Magenta -->
+    <trip id="5" depart="45.00" from="197551632#0" to="415697113#0" color="0,1,1"/>       <!-- Cyan -->
+    <trip id="6" depart="54.00" from="-197551632#2" to="197551632#1" color="0.5,0.5,0"/>  <!-- Olive -->
+    <trip id="7" depart="63.00" from="47442743#3" to="47442733" color="1,0.5,0"/>         <!-- Orange -->
+    <trip id="8" depart="72.00" from="197551632#0" to="47442735#4" color="0.5,0,1"/>      <!-- Purple -->
+    <trip id="9" depart="81.00" from="491337027#0" to="-170356124" color="0.3,0.7,0.9"/>  <!-- Light Blue -->
+</routes>
+

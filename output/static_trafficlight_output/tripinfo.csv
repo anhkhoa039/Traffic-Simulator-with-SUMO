@@ -1,0 +1,11 @@
+tripinfo_arrival;tripinfo_arrivalLane;tripinfo_arrivalPos;tripinfo_arrivalSpeed;tripinfo_depart;tripinfo_departDelay;tripinfo_departLane;tripinfo_departPos;tripinfo_departSpeed;tripinfo_devices;tripinfo_duration;tripinfo_id;tripinfo_rerouteNo;tripinfo_routeLength;tripinfo_speedFactor;tripinfo_stopTime;tripinfo_timeLoss;tripinfo_vType;tripinfo_vaporized;tripinfo_waitingCount;tripinfo_waitingTime
+40.00;-197551632#1_0;0.20;6.25;0.00;0.00;47442743#2_0;5.10;0.00;tripinfo_0;40.00;0;0;573.47;1.06;0.00;12.74;DEFAULT_VEHTYPE;;0;0.00
+61.00;-491342453_0;0.20;3.47;27.00;0.00;491337032#2_0;5.10;0.00;tripinfo_3;34.00;3;0;448.73;1.08;0.00;12.07;DEFAULT_VEHTYPE;;0;0.00
+63.00;47442750#2_1;41.83;21.89;18.00;0.00;490917268#1_0;5.10;0.00;tripinfo_2;45.00;2;0;789.49;1.01;0.00;9.13;DEFAULT_VEHTYPE;;0;0.00
+70.00;197551632#1_0;0.20;2.87;54.00;0.00;-197551632#2_0;5.10;0.00;tripinfo_6;16.00;6;0;123.87;1.05;0.00;6.38;DEFAULT_VEHTYPE;;0;0.00
+78.00;415697113#0_0;0.20;3.58;45.00;0.00;197551632#0_0;5.10;0.00;tripinfo_5;33.00;5;0;311.25;0.83;0.00;9.96;DEFAULT_VEHTYPE;;0;0.00
+116.00;491337020#2_0;421.62;19.72;9.00;0.00;25439947#0_0;0.20;0.00;tripinfo_1;107.00;1;0;853.47;0.94;0.00;61.57;DEFAULT_VEHTYPE;;2;39.00
+138.00;47442735#4_0;63.04;19.97;72.00;0.00;197551632#0_0;5.10;0.00;tripinfo_8;66.00;8;0;926.68;0.94;0.00;13.25;DEFAULT_VEHTYPE;;0;0.00
+141.00;47442733_0;0.20;8.25;63.00;0.00;47442743#3_0;5.10;0.00;tripinfo_7;78.00;7;0;789.31;0.89;0.00;33.18;DEFAULT_VEHTYPE;;1;9.00
+171.00;-29182100#0_1;0.20;9.45;36.00;0.00;415670710#3_0;0.20;0.00;tripinfo_4;135.00;4;0;1485.05;1.03;0.00;65.82;DEFAULT_VEHTYPE;;2;40.00
+281.00;-170356124_0;590.44;10.84;81.00;0.00;491337027#0_0;5.10;0.00;tripinfo_9;200.00;9;0;1710.09;0.86;0.00;85.21;DEFAULT_VEHTYPE;;2;58.00
